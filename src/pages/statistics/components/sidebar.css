@@ -1,0 +1,108 @@
+ul {
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    width: 288px;
+    height: 484px;
+    left: 0;
+    top: 79px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.menu.active {
+    width: 80px;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu__header button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu__content {
+    height: 100%;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;    
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+
+
+.sideSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 12px;
+}
+
+.sideSectionTitle {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    margin: 16px 12px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    text-transform: uppercase;
+}
+
+.capitalize {
+    display: flex;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    padding-bottom: 0.625rem;
+    padding-top: 0.75rem;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    gap: 1.25rem;
+    margin: 0.5rem;
+    font-size: 18px;
+}
+
+.capitalize:hover {
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    background-color: #e5e7eb;;
+}
+
+.sideSection .active {
+    color: rgb(241, 237, 237);
+    background-color: rgb(26, 151, 245);
+}
+
+.smallSideMenu:hover {
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.smallSideSection .active {
+    color: rgb(26, 151, 245);
+}
+
+.smallSideMenu {
+    display: flex;
+    align-items: center;
+    outline: none;
+    text-decoration: none;
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
+    font-size: 24px;
+
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}

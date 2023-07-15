@@ -1,0 +1,48 @@
+.css-1e2bxag-MuiDataGrid-root {
+    border: none important;
+}
+
+.pageName {
+    --tw-text-opacity: 1;
+    color: rgb(156 163 175 / var(--tw-text-opacity));
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.customerPage {
+    --tw-text-opacity: 1;
+    color: rgb(15 23 42 / var(--tw-text-opacity));
+    letter-spacing: -0.025em;
+    font-weight: 800;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+.css-1j9kmqg-MuiDataGrid-toolbarContainer button{
+    color: rgb(26, 26, 26);
+}
+
+.css-yrdy0g-MuiDataGrid-columnHeaderRow {
+    background-color: rgb(26, 151, 245);
+    color: rgb(243, 243, 243);
+}
+
+.css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.css-17jjc08-MuiDataGrid-footerContainer {
+    background-color: rgb(26, 151, 245);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.css-rtrcn9-MuiTablePagination-root:last-child {
+    color: rgb(243, 243, 243);
+}

@@ -1,0 +1,19 @@
+.MainStat {
+    padding-left: 288px;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.SmallMainStat {
+    padding-left: 80px;
+    margin-top: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.someStat {
+    padding: 20px;
+}
